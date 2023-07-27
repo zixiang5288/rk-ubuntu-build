@@ -6,23 +6,23 @@ Instructions:
   
       For example:
 
-      ./mkrootfs.sh focal
+      sudo ./mkrootfs.sh focal
 
-      ./mkrootfs.sh jammy-xfce
+      sudo ./mkrootfs.sh jammy-xfce
   
       You can run it multiple times. If you think there is a problem with the created rootfs, you can clear it:
   
-      ./mkrootfs.sh focal clean
+      sudo ./mkrootfs.sh focal clean
 
-      ./mkrootfs.sh jammy-xfce clean
+      sudo ./mkrootfs.sh jammy-xfce clean
 
 2. Create target image
 
       For example:
   
-      ./mkimg.sh rk3568 h68k focal
+      sudo ./mkimg.sh rk3568 h68k focal
 
-      ./mkimg.sh rk3568 h69k-max jammy-xfce
+      sudo ./mkimg.sh rk3568 h69k-max jammy-xfce
 
 3. Get the target image:
   
