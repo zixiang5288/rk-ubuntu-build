@@ -83,7 +83,7 @@ cd ${rootpath}
 		echo "done"
 	else
 		echo "Failed!"
-		exit_on_falue
+		exit_on_failue
 	fi
 )
 
@@ -96,7 +96,7 @@ cd ${rootpath}
 		echo "done"
 	else
 		echo "Failed!"
-		exit_on_falue
+		exit_on_failue
 	fi
 )
 
@@ -109,7 +109,7 @@ cd ${rootpath}
 		echo "done"
 	else
 		echo "Failed!"
-		exit_on_falue
+		exit_on_failue
 	fi
 )
 
@@ -130,7 +130,7 @@ cd ${rootpath}
 		echo "done"
 	else
 		echo "Failed!"
-		exit_on_falue
+		exit_on_failue
 	fi
 )
 
