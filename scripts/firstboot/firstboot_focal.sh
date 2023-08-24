@@ -529,4 +529,9 @@ modify_user_pswd
 set_lightdm_default_xsession "xfce"
 enable_rknpu
 
+if [ -f /usr/lib/systemd/system/ssd1306.service ];then
+	enable_service ssd1306.service
+	start_service ssd1306.service
+fi
+
 disable_service $FIRSTBOOT
